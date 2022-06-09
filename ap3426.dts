@@ -1,0 +1,22 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "brcm,bcm2835";
+
+	fragment@0 {
+		target = <&i2c1>;
+		__overlay__ {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			status = "okay";
+			clock-frequency = <400000>;
+
+			ap3426: ap3426@1e {
+				compatible = "dyna,ap3426";
+				reg = <0x1e>;
+				status = "okay";
+			};
+		};
+	};
+};

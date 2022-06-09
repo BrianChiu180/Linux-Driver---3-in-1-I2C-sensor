@@ -1,0 +1,59 @@
+
+
+
+pi@raspberrypi:~/rpi/ap3426 $ sudo su
+root@raspberrypi:/home/pi/rpi/ap3426# ls
+ap3426app    ap3426.c	ap3426.mod    ap3426.mod.o  Kconfig   modules.order
+ap3426app.c  ap3426.ko	ap3426.mod.c  ap3426.o	    Makefile  Module.symvers
+root@raspberrypi:/home/pi/rpi/ap3426# 
+root@raspberrypi:/home/pi/rpi/ap3426# 
+root@raspberrypi:/home/pi/rpi/ap3426# 
+root@raspberrypi:/home/pi/rpi/ap3426# ./ap3426app /dev/ap3426
+ir = 0, als = 0, ps = 0
+ir = 1, als = 232, ps = 6
+ir = 1, als = 234, ps = 4
+ir = 2, als = 241, ps = 5
+ir = 0, als = 238, ps = 11
+ir = 1, als = 232, ps = 11
+ir = 2, als = 239, ps = 4
+ir = 2, als = 239, ps = 10
+ir = 2, als = 232, ps = 9
+ir = 0, als = 230, ps = 0
+ir = 0, als = 232, ps = 13
+ir = 2, als = 238, ps = 0
+ir = 0, als = 242, ps = 12
+ir = 0, als = 238, ps = 2
+ir = 1, als = 237, ps = 13
+ir = 0, als = 239, ps = 15
+ir = 0, als = 238, ps = 8
+ir = 2, als = 233, ps = 0
+ir = 1, als = 230, ps = 10
+ir = 3, als = 232, ps = 12
+ir = 1, als = 232, ps = 15
+ir = 0, als = 240, ps = 14
+ir = 2, als = 239, ps = 14
+ir = 1, als = 232, ps = 10
+ir = 0, als = 238, ps = 5
+ir = 0, als = 241, ps = 10
+ir = 0, als = 236, ps = 0
+ir = 2, als = 234, ps = 11
+ir = 0, als = 228, ps = 12
+ir = 0, als = 230, ps = 15
+ir = 1, als = 232, ps = 14
+ir = 0, als = 240, ps = 10
+ir = 0, als = 226, ps = 12
+ir = 2, als = 231, ps = 15
+ir = 3, als = 232, ps = 13
+ir = 2, als = 238, ps = 10
+ir = 0, als = 241, ps = 4
+ir = 0, als = 238, ps = 11
+ir = 3, als = 234, ps = 7
+ir = 1, als = 231, ps = 14
+ir = 2, als = 231, ps = 7
+ir = 1, als = 238, ps = 12
+ir = 0, als = 231, ps = 9
+ir = 1, als = 230, ps = 12
+ir = 0, als = 231, ps = 11
+ir = 3, als = 236, ps = 13
+ir = 0, als = 240, ps = 1
+ir = 0, als = 239, ps = 9
